@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero automático</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Cajero Automático</h1>
+  <div id="login-screen">
+    <h2>Selecciona una cuenta</h2>
+    <select id="account-select">
+      <option value="0">Persona 1</option>
+      <option value="1">Persona 2</option>
+      <option value="2">Persona 3</option>
+    </select>
+    <input type="password" id="password-input" placeholder="Ingresa el password">
+    <button id="login-button">Ingresar</button>
+    <p id="login-error" class="error"></p>
+  </div>
+  <div id="transaction-screen" class="hidden">
+    <h2 id="account-name"></h2>
+    <button id="check-balance-button">Consultar saldo</button>
+    <button id="deposit-button">Ingresar monto</button>
+    <button id="withdraw-button">Retirar monto</button>
+    <p id="balance"></p>
+    <div id="transaction-form" class="hidden">
+      <input type="number" id="amount-input" placeholder="Ingresa el monto">
+      <button id="confirm-button">Confirmar</button>
+      <p id="transaction-error" class="error"></p>
+      <button id="cancel-button">Cancelar</button>
+    </div>
+    <button id="logout-button">Cerrar sesión</button>
+  </div>
+  <script src="cajeroautomatico.js"></script>
+</body>
+</html>
+

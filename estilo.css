@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  #login-screen,
+  #transaction-screen {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #transaction-screen {
+    text-align: center;
+  }
+  
+  #transaction-form {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  input,
+  select {
+    margin-top: 5px;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  
